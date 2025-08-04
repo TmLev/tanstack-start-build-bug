@@ -1,0 +1,40 @@
+{
+  "printWidth": 100,
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "importOrder": [
+    "<BUILT_IN_MODULES>",
+    "",
+    "^(react(.*))$",
+    "",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^@/api/(.*)$",
+    "",
+    "^@/(.*)$",
+    "",
+    "^[../]",
+    "^[./]"
+  ],
+  "importOrderParserPlugins": [
+    "typescript",
+    "jsx",
+    "decorators-legacy",
+    "explicitResourceManagement"
+  ],
+  "importOrderTypeScriptVersion": "5.6.3",
+  "tailwindAttributes": [
+    "labelClassName",
+    "inputClassName"
+  ],
+  "tailwindFunctions": [
+    "clsx",
+    "cn",
+    "twMerge",
+    "customTwMerge",
+    "twJoin",
+    "clsx"
+  ]
+}

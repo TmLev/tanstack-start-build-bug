@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/_serverFn/:splat*",
+      "destination": "/_serverFn/:splat*"
+    },
+    {
+      "source": "/api/:splat*",
+      "destination": "/api/:splat*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/_shell.html"
+    }
+  ]
+}
